@@ -164,7 +164,7 @@ namespace DockSample
             }
             else if (sender == menuItemSchemaVS2012Light)
             {
-                dockPanel.Theme = vS2012LightTheme1;
+                dockPanel.Theme = vS2012DarkTheme1;
                 EnableVS2012Renderer(true);
             }
 
