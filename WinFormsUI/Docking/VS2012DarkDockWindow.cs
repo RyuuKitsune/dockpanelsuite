@@ -79,7 +79,7 @@ namespace WeifenLuo.WinFormsUI.Docking
                                 path.AddRectangle(rect);
                                 using (var brush = new PathGradientBrush(path)
                                 {
-                                    CenterColor = Color.FromArgb(0xFF, 0x22, 0x22, 0x22),
+                                    CenterColor = Color.FromArgb(0xFF, 0x44, 0x44, 0x44),
                                     SurroundColors = _verticalSurroundColors
                                 })
                                 {
