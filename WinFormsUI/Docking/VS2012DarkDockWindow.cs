@@ -43,8 +43,8 @@ namespace WeifenLuo.WinFormsUI.Docking
 
         internal class VS2012DarkDockWindowSplitterControl : SplitterBase
         {
-            private static readonly SolidBrush _horizontalBrush = new SolidBrush(Color.FromArgb(0xFF, 0x22, 0x22, 0x22));
-            private static readonly Color[] _verticalSurroundColors = new[] { SystemColors.Control };
+            private static readonly SolidBrush _horizontalBrush = new SolidBrush(Color.FromArgb(0xFF, 0x44, 0x44, 0x44));
+            private static readonly Color[] _verticalSurroundColors = new[] { Color.FromArgb(0x22,0x22,0x22) };
 
             protected override int SplitterSize
             {
